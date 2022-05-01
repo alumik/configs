@@ -1,5 +1,10 @@
 [user]
 	name = Zhong Zhenyu
 	email = nczzy1997@gmail.com
+
 [core]
-	editor = \"code\" --wait
+	editor = code --wait
+[credential "https://git.overleaf.com"]
+	provider = generic
+[safe]
+	directory = *
