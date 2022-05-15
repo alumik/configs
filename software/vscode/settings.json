@@ -8,7 +8,7 @@
         120
     ],
     "editor.suggestSelection": "first",
-    "latex-workshop.latex.recipe.default": "lastUsed",
+    "latex-workshop.latex.recipe.default": "latexmk (lualatex)",
     "latex-workshop.latex.recipes": [
         {
             "name": "latexmk 🔃",
@@ -41,6 +41,15 @@
                 "bibtex",
                 "pdflatex",
                 "pdflatex"
+            ]
+        },
+        {
+            "name": "xelatex ➞ bibtex ➞ xelatex × 2",
+            "tools": [
+                "xelatexmk",
+                "bibtex",
+                "xelatexmk",
+                "xelatexmk"
             ]
         },
         {
@@ -169,10 +178,5 @@
             "name": "tectonic"
         }
     ],
-    "latex-workshop.view.pdf.viewer": "tab",
-    "terminal.integrated.shell.linux": "/bin/bash",
-    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-    "workbench.editorAssociations": {
-        "*.ipynb": "jupyter.notebook.ipynb"
-    }
+    "latex-workshop.view.pdf.viewer": "tab"
 }
