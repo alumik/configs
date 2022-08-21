@@ -1,0 +1,21 @@
+profileParsersText: >+
+  parsers: # array
+    - url: https://naixisubs.com/downloadConfig/Clash.aspx?eq=windows&urk=4ab552b6-1a00-4b6d-a68b-9d74fc4d27b5
+      yaml:
+        append-proxies:
+          - name: EasyConnect
+            type: socks5
+            server: 127.0.0.1
+            port: 1080
+            udp: true
+        append-proxy-groups:
+          - name: Nankai University
+            type: select
+            proxies:
+              - DIRECT
+              - EasyConnect
+        prepend-rules:
+          - IP-CIDR,10.0.0.0/8,Nankai University
+          - DOMAIN,blog.alumik.cn,DIRECT
+          - DOMAIN,tracedseals.starfieldtech.com,REJECT
+          - DOMAIN,pic.picnewsss.com,REJECT
