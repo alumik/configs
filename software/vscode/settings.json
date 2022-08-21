@@ -3,12 +3,8 @@
         "editor.wordWrap": "on"
     },
     "editor.minimap.enabled": false,
-    "editor.rulers": [
-        80,
-        120
-    ],
     "editor.suggestSelection": "first",
-    "latex-workshop.latex.recipe.default": "latexmk (lualatex)",
+    "latex-workshop.latex.recipe.default": "lastUsed",
     "latex-workshop.latex.recipes": [
         {
             "name": "latexmk 🔃",
@@ -178,5 +174,12 @@
             "name": "tectonic"
         }
     ],
-    "latex-workshop.view.pdf.viewer": "tab"
+    "latex-workshop.view.pdf.viewer": "tab",
+    "editor.inlineSuggest.enabled": true,
+    "github.copilot.enable": {
+        "*": true,
+        "yaml": false,
+        "plaintext": false,
+        "markdown": false
+    }
 }

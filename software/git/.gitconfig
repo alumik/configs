@@ -8,3 +8,5 @@
 	provider = generic
 [safe]
 	directory = *
+[credential "helperselector"]
+	selected = manager-core
