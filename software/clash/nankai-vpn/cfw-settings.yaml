@@ -1,6 +1,6 @@
 profileParsersText: >+
   parsers: # array
-    - url: https://naixisubs.com/downloadConfig/Clash.aspx?eq=windows&urk=4ab552b6-1a00-4b6d-a68b-9d74fc4d27b5
+    - url: https://naixisubs.com/downloadConfig/Clash.aspx?eq=windows&urk=4ab552b6-1a01-4b6d-a68b-9d74fc4d27b5
       yaml:
         append-proxies:
           - name: EasyConnect

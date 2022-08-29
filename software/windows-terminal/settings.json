@@ -58,10 +58,11 @@
                 "hidden": true,
                 "name": "Windows PowerShell"
             },
+            // Command Prompt
             {
                 "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
                 "hidden": true,
-                "name": "\u547d\u4ee4\u63d0\u793a\u7b26"  // 命令提示符
+                "name": "\u547d\u4ee4\u63d0\u793a\u7b26"
             },
             {
                 "guid": "{2ece5bfe-50ed-5f3a-ab87-5cd4baafed2b}",
