@@ -37,11 +37,12 @@
     {
         "defaults": 
         {
-            "colorScheme": "Ubuntu Dark",
+            "colorScheme": "IntelliJ Light",
             "font": 
             {
                 "face": "Cascadia Code PL"
             },
+            "intenseTextStyle": "none",
             "opacity": 90,
             "useAcrylic": true
         },
@@ -130,6 +131,29 @@
             "selectionBackground": "#FFFFFF",
             "white": "#CCCCCC",
             "yellow": "#C19C00"
+        },
+        {
+            "background": "#FFFFFF",
+            "black": "#0C0C0C",
+            "blue": "#063FDB",
+            "brightBlack": "#656565",
+            "brightBlue": "#2D61F0",
+            "brightCyan": "#15C1C1",
+            "brightGreen": "#16B42C",
+            "brightPurple": "#E617E6",
+            "brightRed": "#FF1616",
+            "brightWhite": "#C9C9C9",
+            "brightYellow": "#ECC32C",
+            "cursorColor": "#000000",
+            "cyan": "#028E8E",
+            "foreground": "#000000",
+            "green": "#067D17",
+            "name": "IntelliJ Light",
+            "purple": "#B309B3",
+            "red": "#CE0505",
+            "selectionBackground": "#3B78FF",
+            "white": "#929292",
+            "yellow": "#B28C00"
         },
         {
             "background": "#282C34",

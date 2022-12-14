@@ -2,7 +2,6 @@
     "[latex]": {
         "editor.wordWrap": "on"
     },
-    "editor.minimap.enabled": false,
     "editor.suggestSelection": "first",
     "latex-workshop.latex.recipe.default": "lastUsed",
     "latex-workshop.latex.recipes": [
@@ -177,9 +176,20 @@
     "latex-workshop.view.pdf.viewer": "tab",
     "editor.inlineSuggest.enabled": true,
     "github.copilot.enable": {
-        "*": true,
-        "yaml": false,
-        "plaintext": false,
-        "markdown": false
-    }
+        "*": true
+    },
+    "editor.fontFamily": "JetBrains Mono, Consolas, 'Courier New', monospace",
+    "editor.fontSize": 14,
+    "workbench.colorTheme": "Default Light+",
+    "grammarly.files.include": [
+        "**/readme.md",
+        "**/README.md",
+        "**/*.txt",
+        "**/*.tex"
+    ],
+    "grammarly.config.documentDomain": "academic",
+    "grammarly.config.suggestions.InformalPronounsAcademic": true,
+    "grammarly.config.suggestions.PrepositionAtTheEndOfSentence": true,
+    "grammarly.config.suggestions.StylisticFragments": true,
+    "grammarly.config.suggestions.UnnecessaryEllipses": true
 }
