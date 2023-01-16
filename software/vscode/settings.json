@@ -179,7 +179,6 @@
         "*": true
     },
     "editor.fontFamily": "JetBrains Mono, Consolas, 'Courier New', monospace",
-    "editor.fontSize": 14,
     "workbench.colorTheme": "Default Light+",
     "grammarly.files.include": [
         "**/readme.md",
