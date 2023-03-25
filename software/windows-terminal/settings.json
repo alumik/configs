@@ -62,6 +62,20 @@
                 "name": "Windows PowerShell"
             },
             {
+                "colorScheme": "Grey-green",
+                "commandline": "pwsh -ExecutionPolicy ByPass -NoExit -Command \"& 'C:/Users/zhong/miniconda3/shell/condabin/conda-hook.ps1' ; conda activate 'C:/Users/zhong/miniconda3'; clear \"",
+                "guid": "{7666c894-6d59-4008-b33c-e692cd0370a0}",
+                "icon": "%USERPROFILE%/miniconda3/Menu/Iconleak-Atrous-PSConsole.ico",
+                "name": "Miniconda3 (base)"
+            },
+            {
+                "colorScheme": "Grey-green",
+                "commandline": "pwsh -ExecutionPolicy ByPass -NoExit -Command \"& 'C:/Users/zhong/miniconda3/shell/condabin/conda-hook.ps1' ; conda activate 'C:/Users/zhong/miniconda3/envs/ws'; clear \"",
+                "guid": "{7666c894-6d59-4008-b33c-e692cd0370a1}",
+                "icon": "%USERPROFILE%/miniconda3/Menu/Iconleak-Atrous-PSConsole.ico",
+                "name": "Miniconda3 (ws)"
+            },
+            {
                 "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
                 "hidden": true,
                 "name": "\u547d\u4ee4\u63d0\u793a\u7b26"
@@ -121,6 +135,29 @@
             "selectionBackground": "#FFFFFF",
             "white": "#CCCCCC",
             "yellow": "#C19C00"
+        },
+        {
+            "background": "#002A1A",
+            "black": "#000000",
+            "blue": "#00DEFF",
+            "brightBlack": "#666666",
+            "brightBlue": "#00AFFF",
+            "brightCyan": "#00FFD3",
+            "brightGreen": "#00FF44",
+            "brightPurple": "#FF008A",
+            "brightRed": "#FF3939",
+            "brightWhite": "#F5ECEC",
+            "brightYellow": "#FFD100",
+            "cursorColor": "#FFF400",
+            "cyan": "#00FFBC",
+            "foreground": "#FFFFFF",
+            "green": "#74FF00",
+            "name": "Grey-green",
+            "purple": "#FF00F0",
+            "red": "#FE1414",
+            "selectionBackground": "#517E50",
+            "white": "#FFFFFF",
+            "yellow": "#F1FF01"
         },
         {
             "background": "#FFFFFF",
