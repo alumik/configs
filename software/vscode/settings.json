@@ -176,7 +176,10 @@
     "latex-workshop.view.pdf.viewer": "tab",
     "editor.inlineSuggest.enabled": true,
     "github.copilot.enable": {
-        "*": true
+        "*": true,
+        "yaml": true,
+        "plaintext": true,
+        "markdown": true
     },
     "editor.fontFamily": "JetBrains Mono, Consolas, 'Courier New', monospace",
     "workbench.colorTheme": "Default Light+",

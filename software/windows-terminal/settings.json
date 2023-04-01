@@ -62,14 +62,14 @@
                 "name": "Windows PowerShell"
             },
             {
-                "colorScheme": "Grey-green",
+                "colorScheme": "Campbell",
                 "commandline": "pwsh -ExecutionPolicy ByPass -NoExit -Command \"& 'C:/Users/zhong/miniconda3/shell/condabin/conda-hook.ps1' ; conda activate 'C:/Users/zhong/miniconda3'; clear \"",
                 "guid": "{7666c894-6d59-4008-b33c-e692cd0370a0}",
                 "icon": "%USERPROFILE%/miniconda3/Menu/Iconleak-Atrous-PSConsole.ico",
                 "name": "Miniconda3 (base)"
             },
             {
-                "colorScheme": "Grey-green",
+                "colorScheme": "Campbell",
                 "commandline": "pwsh -ExecutionPolicy ByPass -NoExit -Command \"& 'C:/Users/zhong/miniconda3/shell/condabin/conda-hook.ps1' ; conda activate 'C:/Users/zhong/miniconda3/envs/ws'; clear \"",
                 "guid": "{7666c894-6d59-4008-b33c-e692cd0370a1}",
                 "icon": "%USERPROFILE%/miniconda3/Menu/Iconleak-Atrous-PSConsole.ico",

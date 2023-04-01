@@ -30,18 +30,10 @@ matches:
   - trigger: ":y]"
     replace: "y]A-Sr.%2&"
 
-  # SSH connection
-  - trigger: ":ssh210"
-    replace: "ssh lidongwen@10.10.1.210"
-
-  # Name
-  - trigger: ":cg"
-    replace: "chinese-gpt"
-  - trigger: ":cd"
-    replace: "chinese-gpt-data"
-
   # Conda environment
   - trigger: ":ac"
     replace: "conda activate cgpt"
+  - trigger: ":am"
+    replace: "conda activate mcpt-torch"
 
   # And much more! For more information, visit the docs: https://espanso.org/docs/
