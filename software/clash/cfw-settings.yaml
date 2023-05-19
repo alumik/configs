@@ -1,6 +1,6 @@
-profileParsersText: >
+profileParsersText: |-
   parsers: # array
-    - url:
+    - reg: .*
       yaml:
         append-proxies:
           - name: EasyConnect
@@ -17,5 +17,18 @@ profileParsersText: >
         prepend-rules:
           - IP-CIDR,10.0.0.0/8,Nankai University
           - DOMAIN,blog.alumik.cn,DIRECT
+          - DOMAIN-SUFFIX,cn.mm.bing.net,DIRECT
           - DOMAIN,tracedseals.starfieldtech.com,REJECT
           - DOMAIN,pic.picnewsss.com,REJECT
+showNewVersionIcon: true
+hideAfterStartup: false
+randomControllerPort: true
+runTimeFormat: "hh : mm : ss"
+trayOrders:
+  - - icon
+  - - status
+    - traffic
+    - text
+hideTrayIcon: false
+connShowProcess: true
+showTrayProxyDelayIndicator: true
