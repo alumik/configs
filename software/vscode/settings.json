@@ -182,7 +182,6 @@
         "markdown": true
     },
     "editor.fontFamily": "JetBrains Mono, Consolas, 'Courier New', monospace",
-    "workbench.colorTheme": "Default Light+",
     "grammarly.files.include": [
         "**/readme.md",
         "**/README.md",
@@ -193,5 +192,33 @@
     "grammarly.config.suggestions.InformalPronounsAcademic": true,
     "grammarly.config.suggestions.PrepositionAtTheEndOfSentence": true,
     "grammarly.config.suggestions.StylisticFragments": true,
-    "grammarly.config.suggestions.UnnecessaryEllipses": true
+    "grammarly.config.suggestions.UnnecessaryEllipses": true,
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+    "editor.fontSize": 13,
+    "editor.lineHeight": 1.7,
+    "window.commandCenter": false,
+    "workbench.layoutControl.enabled": false,
+    "editor.minimap.enabled": false,
+    "workbench.activityBar.visible": false,
+    "activitusbar.views": [
+        {
+            "name": "explorer",
+            "codicon": "explorer-view-icon"
+        },
+        {
+            "name": "search",
+            "codicon": "search-view-icon"
+        },
+        {
+            "name": "scm",
+            "codicon": "source-control-view-icon"
+        },
+        {
+            "name": "extensions",
+            "codicon": "extensions-view-icon"
+        }
+    ],
+    "activitusbar.inactiveColour": "#cccccc",
+    "activitusbar.activeColour": "#cccccc",
 }
