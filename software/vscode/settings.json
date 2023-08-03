@@ -182,11 +182,11 @@
         "markdown": true
     },
     "editor.fontFamily": "JetBrains Mono, Consolas, 'Courier New', monospace",
-    "grammarly.files.include": [
-        "**/readme.md",
-        "**/README.md",
-        "**/*.txt",
-        "**/*.tex"
+    "grammarly.selectors": [
+        {
+            "language": "latex",
+            "scheme": "file"
+        }
     ],
     "grammarly.config.documentDomain": "academic",
     "grammarly.config.suggestions.InformalPronounsAcademic": true,
