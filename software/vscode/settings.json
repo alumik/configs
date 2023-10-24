@@ -101,6 +101,7 @@
                 "-interaction=nonstopmode",
                 "-file-line-error",
                 "-lualatex",
+                "-shell-escape",
                 "-outdir=%OUTDIR%",
                 "%DOCFILE%"
             ],
@@ -177,9 +178,10 @@
     "editor.inlineSuggest.enabled": true,
     "github.copilot.enable": {
         "*": true,
-        "yaml": true,
         "plaintext": true,
-        "markdown": true
+        "markdown": true,
+        "scminput": false,
+        "yaml": true
     },
     "editor.fontFamily": "JetBrains Mono, Consolas, 'Courier New', monospace",
     "grammarly.selectors": [
