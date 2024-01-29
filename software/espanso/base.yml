@@ -31,9 +31,7 @@ matches:
     replace: "y]A-Sr.%2&"
 
   # Conda environment
-  - trigger: ":ac"
-    replace: "conda activate cgpt"
   - trigger: ":am"
-    replace: "conda activate mcpt-torch"
+    replace: "conda activate mcpt"
 
   # And much more! For more information, visit the docs: https://espanso.org/docs/

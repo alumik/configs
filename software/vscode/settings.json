@@ -2,7 +2,6 @@
     "[latex]": {
         "editor.wordWrap": "on"
     },
-    "editor.suggestSelection": "first",
     "latex-workshop.latex.recipe.default": "lastUsed",
     "latex-workshop.latex.recipes": [
         {
@@ -183,7 +182,6 @@
         "scminput": false,
         "yaml": true
     },
-    "editor.fontFamily": "JetBrains Mono, Consolas, 'Courier New', monospace",
     "grammarly.selectors": [
         {
             "language": "latex",
@@ -195,14 +193,7 @@
     "grammarly.config.suggestions.PrepositionAtTheEndOfSentence": true,
     "grammarly.config.suggestions.StylisticFragments": true,
     "grammarly.config.suggestions.UnnecessaryEllipses": true,
-    "git.enableSmartCommit": true,
-    "git.confirmSync": false,
-    "editor.fontSize": 13,
-    "editor.lineHeight": 1.7,
-    "window.commandCenter": false,
-    "workbench.layoutControl.enabled": false,
     "editor.minimap.enabled": false,
-    "workbench.activityBar.visible": false,
     "activitusbar.views": [
         {
             "name": "explorer",
@@ -221,9 +212,10 @@
             "codicon": "extensions-view-icon"
         }
     ],
-    "activitusbar.inactiveColour": "#cccccc",
-    "activitusbar.activeColour": "#cccccc",
     "remote.SSH.remotePlatform": {
         "192.168.10.20": "linux"
     },
+    "workbench.activityBar.location": "hidden",
+    "editor.unicodeHighlight.nonBasicASCII": false,
+    "workbench.layoutControl.enabled": false
 }
