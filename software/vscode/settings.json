@@ -217,5 +217,7 @@
     },
     "workbench.activityBar.location": "hidden",
     "editor.unicodeHighlight.nonBasicASCII": false,
-    "workbench.layoutControl.enabled": false
+    "workbench.layoutControl.enabled": false,
+    "python.defaultInterpreterPath": "C:\\Users\\zhong\\miniconda3\\envs\\ws\\python.exe",
+    "redhat.telemetry.enabled": false
 }

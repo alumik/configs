@@ -3,19 +3,30 @@ profileParsersText: |-
     - reg: .*
       yaml:
         append-proxies:
-          - name: EasyConnect
+          - name: EasyConnectNankai
             type: socks5
             server: 127.0.0.1
             port: 1080
+            udp: true
+          - name: EasyConnectNSCCTJ
+            type: socks5
+            server: 127.0.0.1
+            port: 1081
             udp: true
         append-proxy-groups:
           - name: Nankai University
             type: select
             proxies:
               - DIRECT
-              - EasyConnect
+              - EasyConnectNankai
+          - name: NSCC-TJ
+            type: select
+            proxies:
+              - DIRECT
+              - EasyConnectNSCCTJ
         prepend-rules:
           - IP-CIDR,10.0.0.0/8,Nankai University
+          - IP-CIDR,192.168.10.0/24,NSCC-TJ
           - DOMAIN,blog.alumik.cn,DIRECT
           - DOMAIN-SUFFIX,cn.mm.bing.net,DIRECT
           - DOMAIN,tracedseals.starfieldtech.com,REJECT

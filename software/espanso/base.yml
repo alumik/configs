@@ -30,8 +30,4 @@ matches:
   - trigger: ":y]"
     replace: "y]A-Sr.%2&"
 
-  # Conda environment
-  - trigger: ":am"
-    replace: "conda activate mcpt"
-
   # And much more! For more information, visit the docs: https://espanso.org/docs/
