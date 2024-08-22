@@ -2,36 +2,39 @@ profileParsersText: |-
   parsers: # array
     - reg: .*
       yaml:
-        append-proxies:
-          - name: EasyConnect-Nankai
-            type: socks5
-            server: 127.0.0.1
-            port: 1080
-            udp: true
-          - name: EasyConnect-NSCCTJ
-            type: socks5
-            server: 127.0.0.1
-            port: 1081
-            udp: true
-        append-proxy-groups:
-          - name: 南开大学
-            type: select
-            proxies:
-              - DIRECT
-              - EasyConnect-Nankai
-          - name: 国家超级计算天津中心
-            type: select
-            proxies:
-              - DIRECT
-              - EasyConnect-NSCCTJ
-        prepend-rules:
-          - IP-CIDR,10.0.0.0/8,南开大学
-          - IP-CIDR,192.168.10.0/24,国家超级计算天津中心
-          - DOMAIN,huggingface.co,国外流量
-          - DOMAIN,blog.alumik.cn,DIRECT
-          - DOMAIN-SUFFIX,cn.mm.bing.net,DIRECT
-          - DOMAIN,tracedseals.starfieldtech.com,REJECT
-          - DOMAIN,pic.picnewsss.com,REJECT
+          append-proxies:
+            - name: EasyConnect-Nankai
+              type: socks5
+              server: 127.0.0.1
+              port: 1080
+              udp: true
+            - name: EasyConnect-NSCCTJ
+              type: socks5
+              server: 127.0.0.1
+              port: 1081
+              udp: true
+          append-proxy-groups:
+            - name: 南开大学
+              type: select
+              proxies:
+                - DIRECT
+                - EasyConnect-Nankai
+            - name: 国家超级计算天津中心
+              type: select
+              proxies:
+                - DIRECT
+                - EasyConnect-NSCCTJ
+          prepend-rules:
+            - IP-CIDR,10.0.0.0/8,南开大学
+            - IP-CIDR,192.168.10.0/24,国家超级计算天津中心
+            - DOMAIN,huggingface.co,国外流量
+            - DOMAIN-SUFFIX,steamserver.net,Steam
+            - DOMAIN,blog.alumik.cn,DIRECT
+            - DOMAIN-SUFFIX,cn.mm.bing.net,DIRECT
+            - DOMAIN,tracedseals.starfieldtech.com,REJECT
+            - DOMAIN,pic.picnewsss.com,REJECT
+          commands:
+            - proxy-groups.(Steam).proxies.1+国外流量
 showNewVersionIcon: true
 hideAfterStartup: false
 randomControllerPort: true

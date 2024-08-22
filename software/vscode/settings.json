@@ -218,5 +218,6 @@
     "workbench.activityBar.location": "hidden",
     "editor.unicodeHighlight.nonBasicASCII": false,
     "workbench.layoutControl.enabled": false,
-    "github.copilot.editor.enableAutoCompletions": true
+    "github.copilot.editor.enableAutoCompletions": true,
+    "git.autofetch": true
 }
