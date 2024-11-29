@@ -1,12 +1,5 @@
 [user]
 	name = Zhong Zhenyu
 	email = nczzy1997@gmail.com
-
 [core]
-	editor = code --wait
-[credential "https://git.overleaf.com"]
-	provider = generic
-[safe]
-	directory = *
-[credential "helperselector"]
-	selected = manager-core
+	editor = \"C:\\Users\\zhong\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\code\" --wait

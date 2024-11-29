@@ -7,15 +7,27 @@
 
 # Matches are substitution rules: when you type the "trigger" string
 # it gets replaced by the "replace" string.
+
+search_shortcut: off
+
 matches:
-
-  # NOTE: espanso uses YAML to define matches, so pay attention to the indentation!
-
-  # But matches can also be dynamic:
-
-  # Print the current date
+  # Date
   - trigger: ":date"
     replace: "{{mydate}}"
+    vars:
+      - name: mydate
+        type: date
+        params:
+          format: "%Y/%m/%d %H:%M:%S"
+  - trigger: ":ddate"
+    replace: "{{mydate}}"
+    vars:
+      - name: mydate
+        type: date
+        params:
+          format: "%Y-%m-%d-%H-%M-%S"
+  - trigger: ":udate"
+    replace: "Update: {{mydate}}"
     vars:
       - name: mydate
         type: date
@@ -26,6 +38,7 @@ matches:
   - trigger: ":up-latex"
     replace: "tlmgr update --all --self --reinstall-forcibly-removed"
 
+  # Password
   - trigger: ":y]"
     replace: "y]A-Sr.%2&"
   - trigger: ":Wk"

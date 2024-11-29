@@ -3,6 +3,7 @@
         "editor.wordWrap": "on"
     },
     "latex-workshop.latex.recipe.default": "lastUsed",
+    "latex-workshop.formatting.latex": "latexindent",
     "latex-workshop.latex.recipes": [
         {
             "name": "latexmk 🔃",
@@ -182,42 +183,9 @@
         "scminput": false,
         "yaml": true
     },
-    "grammarly.selectors": [
-        {
-            "language": "latex",
-            "scheme": "file"
-        }
-    ],
-    "grammarly.config.documentDomain": "academic",
-    "grammarly.config.suggestions.InformalPronounsAcademic": true,
-    "grammarly.config.suggestions.PrepositionAtTheEndOfSentence": true,
-    "grammarly.config.suggestions.StylisticFragments": true,
-    "grammarly.config.suggestions.UnnecessaryEllipses": true,
     "editor.minimap.enabled": false,
-    "activitusbar.views": [
-        {
-            "name": "explorer",
-            "codicon": "explorer-view-icon"
-        },
-        {
-            "name": "search",
-            "codicon": "search-view-icon"
-        },
-        {
-            "name": "scm",
-            "codicon": "source-control-view-icon"
-        },
-        {
-            "name": "extensions",
-            "codicon": "extensions-view-icon"
-        }
-    ],
-    "remote.SSH.remotePlatform": {
-        "192.168.10.20": "linux"
-    },
-    "workbench.activityBar.location": "hidden",
     "editor.unicodeHighlight.nonBasicASCII": false,
     "workbench.layoutControl.enabled": false,
     "github.copilot.editor.enableAutoCompletions": true,
-    "git.autofetch": true
+    "security.workspace.trust.enabled": false
 }
