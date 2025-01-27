@@ -1,0 +1,16 @@
+parsers: # array
+  - reg: .*
+    yaml:
+      append-proxies:
+        - name: Mixed-Nankai
+          type: socks5
+          server: 127.0.0.1
+          port: 27891
+          udp: true
+      append-proxy-groups:
+        - name: 南开大学
+          type: select
+          proxies:
+            - Mixed-Nankai
+      prepend-rules:
+        - IP-CIDR,10.0.0.0/8,南开大学
