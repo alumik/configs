@@ -175,7 +175,6 @@
         }
     ],
     "latex-workshop.view.pdf.viewer": "tab",
-    "editor.inlineSuggest.enabled": true,
     "github.copilot.enable": {
         "*": true,
         "plaintext": true,
@@ -186,6 +185,14 @@
     "editor.minimap.enabled": false,
     "editor.unicodeHighlight.nonBasicASCII": false,
     "workbench.layoutControl.enabled": false,
-    "github.copilot.editor.enableAutoCompletions": true,
-    "security.workspace.trust.enabled": false
+    "security.workspace.trust.enabled": false,
+    "editor.rulers": [
+        80,
+        120
+    ],
+    "editor.fontFamily": "Ubuntu Mono derivative Powerline, 微软雅黑",
+    "editor.quickSuggestions": {
+        "other": "off"
+    },
+    "editor.suggestOnTriggerCharacters": false
 }
