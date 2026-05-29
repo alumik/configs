@@ -43,3 +43,35 @@ matches:
     replace: "y]A-Sr.%2&"
   - trigger: ":Wk"
     replace: "Wk2XMk,Eh"
+
+  # Standard UUID.
+  - trigger: ":uuid"
+    replace: "{{uuid}}"
+    propagate_case: true
+    uppercase_style: uppercase
+    vars:
+      - name: uuid
+        type: script
+        params:
+          args:
+            - C:/Users/zhong/miniconda3/python
+            - -c
+            - |
+              import uuid
+              print(uuid.uuid4())
+
+  # Non-dashed UUID.
+  - trigger: ":nuuid"
+    replace: "{{uuid_nodash}}"
+    propagate_case: true
+    uppercase_style: uppercase
+    vars:
+      - name: uuid_nodash
+        type: script
+        params:
+          args:
+            - C:/Users/zhong/miniconda3/python
+            - -c
+            - |
+              import uuid
+              print(str(uuid.uuid4()).replace('-', ''))

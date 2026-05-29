@@ -75,9 +75,8 @@
                 "-interaction=nonstopmode",
                 "-file-line-error",
                 "-pdf",
-                "-outdir=%OUTDIR%",
                 "--shell-escape",
-                "%DOCFILE%"
+                "%DOCFILE_EXT%"
             ],
             "command": "latexmk",
             "env": {},
@@ -89,8 +88,7 @@
                 "-synctex=1",
                 "-interaction=nonstopmode",
                 "-file-line-error",
-                "-outdir=%OUTDIR%",
-                "%DOCFILE%"
+                "%DOCFILE_EXT%"
             ],
             "command": "latexmk",
             "name": "xelatexmk"
@@ -102,8 +100,7 @@
                 "-file-line-error",
                 "-lualatex",
                 "-shell-escape",
-                "-outdir=%OUTDIR%",
-                "%DOCFILE%"
+                "%DOCFILE_EXT%"
             ],
             "command": "latexmk",
             "env": {},
@@ -111,7 +108,7 @@
         },
         {
             "args": [
-                "%DOCFILE%"
+                "%DOCFILE_EXT%"
             ],
             "command": "latexmk",
             "env": {},
@@ -122,7 +119,7 @@
                 "-synctex=1",
                 "-interaction=nonstopmode",
                 "-file-line-error",
-                "%DOCFILE%"
+                "%DOCFILE_EXT%"
             ],
             "command": "pdflatex",
             "env": {},
@@ -130,7 +127,7 @@
         },
         {
             "args": [
-                "%DOCFILE%"
+                "%DOCFILE_EXT%"
             ],
             "command": "bibtex",
             "env": {},
@@ -194,5 +191,10 @@
     "editor.quickSuggestions": {
         "other": "off"
     },
-    "editor.suggestOnTriggerCharacters": false
+    "editor.suggestOnTriggerCharacters": false,
+    "commentTranslate.targetLanguage": "en",
+    "workbench.colorTheme": "Light Modern",
+    "github.copilot.nextEditSuggestions.enabled": true,
+    "terminal.integrated.tabs.enabled": false,
+    "chat.mcp.gallery.enabled": true
 }

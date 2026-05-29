@@ -97,7 +97,13 @@
                 "source": "Windows.Terminal.Azure"
             },
             {
-                "commandline": "pwsh -ExecutionPolicy ByPass -NoExit -Command \"& 'C:\\Users\\zhong\\miniconda3\\shell\\condabin\\conda-hook.ps1' ; conda activate 'C:\\Users\\zhong\\miniconda3' \"",
+                "guid": "{2ece5bfe-50ed-5f3a-ab87-5cd4baafed2b}",
+                "hidden": false,
+                "name": "Git Bash",
+                "source": "Git"
+            },
+            {
+                "commandline": "%WINDIR%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe -ExecutionPolicy ByPass -NoExit -Command \"& 'C:\\Users\\zhong\\miniconda3\\shell\\condabin\\conda-hook.ps1' ; conda activate 'C:\\Users\\zhong\\miniconda3' \"",
                 "guid": "{baef6041-a2f3-5472-b295-a7d7fb0ed62f}",
                 "icon": "C:\\Users\\zhong\\miniconda3\\Menu\\anaconda_powershell_prompt.ico",
                 "name": "Anaconda PowerShell Prompt (miniconda3)",
@@ -106,16 +112,9 @@
             {
                 "commandline": "%WINDIR%\\System32\\cmd.exe \"/K\" C:\\Users\\zhong\\miniconda3\\Scripts\\activate.bat C:\\Users\\zhong\\miniconda3",
                 "guid": "{35427e1d-45ad-517a-8692-8d5e4093f90f}",
-                "hidden": true,
                 "icon": "C:\\Users\\zhong\\miniconda3\\Menu\\anaconda_prompt.ico",
                 "name": "Anaconda Prompt (miniconda3)",
                 "startingDirectory": "C:\\Users\\zhong"
-            },
-            {
-                "guid": "{2ece5bfe-50ed-5f3a-ab87-5cd4baafed2b}",
-                "hidden": false,
-                "name": "Git Bash",
-                "source": "Git"
             }
         ]
     },
